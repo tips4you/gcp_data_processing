@@ -14,13 +14,13 @@ Replace `"data"` and `"gs://our-bucket/data"` with our actual directory and buck
 
 ## Set Up a Cloud Function
 
-Write a Cloud Function that will be triggered by the file creation. In the Cloud Function code, add logic to trigger the Dataflow batch job whenever the function is invoked. We can use the Dataflow API within the Cloud Function.
+Write a Cloud Function that will be triggered by the file creation. In the Cloud Function code, added logic to trigger the Dataflow batch job whenever the function is invoked. We can use the Dataflow API within the Cloud Function.
 
 This setup allows us to leverage the cost efficiency of batch processing while still achieving a level of event-driven processing.
 
 ## Create a Dataflow Batch Pipeline
 
-Develop a batch processing pipeline using Google Cloud Dataflow. This can be similar to the batch processing pipeline. Pipeline reading data directly from Cloud Storage as a batch source.
+Developed a batch processing pipeline using Google Cloud Dataflow. This can be similar to the batch processing pipeline. Pipeline reading data directly from Cloud Storage as a batch source.
 
 ## Deploy the Batch Pipeline
 
