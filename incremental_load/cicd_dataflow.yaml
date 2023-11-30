@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['cp', 'gs://path-to-your-dataflow-template', '.']
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['dataflow', 'jobs', 'run', 'your-job-name',
+         '--gcs-location', 'gs://path-to-your-dataflow-template',
+         '--parameters', 'inputFile=gs://path-to-your-input-data,outputTable=your-project:your_dataset.your_table']

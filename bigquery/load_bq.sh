@@ -1,0 +1,1 @@
+bq load --source_format=FORMAT dataset.table gs://your-bucket/data/*

@@ -1,0 +1,1 @@
+gsutil -o GSUtil:parallel_composite_upload_threshold=150M cp file*/*.tsv.gz gs://our-gcs-bucket/

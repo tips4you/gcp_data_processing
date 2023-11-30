@@ -1,0 +1,67 @@
+[
+    {
+        "name": "ID",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "Library_ID",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "Sub_ID_1",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "Sub_ID_2",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "Sub_ID_3",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "MW",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "LogP",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "FP",
+        "type": "FLOAT",
+        "mode": "REPEATED"
+    },
+    {
+        "name": "FP1",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "FP2",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "FP3",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "FP4",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "FP5",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
